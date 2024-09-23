@@ -79,3 +79,7 @@ span::before {
   font-family: "norseBold";
   font-size: 5rem;
 }
+
+cite {
+  margin: 1rem;
+}
