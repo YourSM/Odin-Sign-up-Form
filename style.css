@@ -7,8 +7,14 @@
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html {}
+
 body {
-  width: 100vh;
+  min-width: 100vw;
   height: 100vh;
   margin: 0;
 }
@@ -20,7 +26,7 @@ body {
 }
 
 .bigContainer {
-  flex: 1;
+  flex: 2;
   width: 100rem;
 }
 
@@ -82,4 +88,19 @@ span::before {
 
 cite {
   margin: 1rem;
+}
+
+.bigContainer > div {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 7rem;
+  width: 100%;
+}
+
+p {
+  font-size: clamp(1.5rem, 1.2vw + 0.75rem, 2.5rem);
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
