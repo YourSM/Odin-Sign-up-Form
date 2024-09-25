@@ -10,13 +10,11 @@
 * {
   box-sizing: border-box;
 }
-
-html {}
-
 body {
   min-width: 100vw;
   height: 100vh;
   margin: 0;
+  background-color: rgb(253, 250, 250);
 }
 
 .container {
@@ -94,13 +92,34 @@ cite {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-  font-size: 1.5rem;
   margin-top: 7rem;
   width: 100%;
+  font-size: clamp(1.5rem, 1.2vw + 0.75rem, 2.5rem);
 }
 
 p {
-  font-size: clamp(1.5rem, 1.2vw + 0.75rem, 2.5rem);
   margin-left: 5rem;
   margin-right: 5rem;
+}
+
+form > div {
+  background-color: white;
+}
+
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 7px;
+}
+
+label {
+  margin-left: 7px;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px 0px 10px 7px;
 }
