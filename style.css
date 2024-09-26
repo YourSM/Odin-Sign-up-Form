@@ -113,6 +113,10 @@ form > div {
 
 input {
   margin: 7px;
+  border-radius: 4px;
+  height: 30px;
+  border: 1px solid #E5E7EB;
+  width: 15rem;
 }
 
 label {
@@ -122,4 +126,14 @@ label {
 h2 {
   margin: 0;
   padding: 10px 0px 10px 7px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.26);
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
 }
