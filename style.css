@@ -100,6 +100,7 @@ cite {
 
 p {
   margin-left: 2rem;
+  max-width: 80%;
 }
 
 form > div {
