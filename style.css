@@ -136,7 +136,8 @@ input:focus {
   box-shadow: 2px 2px 4px 1px #00000042;
 }
 
-input[type="password"]:invalid {
+input[type="password"]:invalid,
+input[type="tel"]:invalid {
   border: 1px solid red;
 }
 
