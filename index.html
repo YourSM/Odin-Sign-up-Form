@@ -48,7 +48,13 @@
             <input type="email" name="user-email" id="email" required>
             <span></span>
             <label for="pwd">PASSWORD</label>
-            <input type="password" name="user-pwd" id="pwd" required>
+            <input type="password"
+                   name="user-pwd"
+                   id="pwd"
+                   pattern="(?=.*[A-Z].*)(.*[a-z].*)(.*[1-9].*)"
+                   minlength="8"
+                   maxlength="16"
+                   required>
             <span></span>
           </div>
           <div class="verticalContainer">
@@ -59,7 +65,13 @@
             <input type="tel" name="phone-number" id="phone-number" required>
             <span></span>
             <label for="confirm-pwd">CONFIRM PASSWORD</label>
-            <input type="password" name="user-pwd" id="confirm-pwd" required>
+            <input type="password"
+                   name="user-pwd"
+                   id="pwd"
+                   pattern="(?=.*[A-Z].*)(.*[a-z].*)(.*[1-9].*)"
+                   minlength="8"
+                   maxlength="16"
+                   required>
             <span></span>
           </div>
         </div>
