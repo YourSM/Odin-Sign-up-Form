@@ -50,11 +50,11 @@ cite {
   align-self: end;
 }
 
-a {
+.sidebarLink {
   color: white;
 }
 
-a:visited {
+.sidebarLink:visited {
   color: wheat
 }
 
@@ -93,9 +93,12 @@ cite {
 .bigContainer > div {
   display: flex;
   flex-direction: column;
-  font-weight: bold;
   width: 100%;
+}
+
+.bigContainer > div > p {
   font-size: clamp(1.5rem, 1.2vw + 0.75rem, 2.5rem);
+  font-weight: bold;
 }
 
 p {
@@ -136,8 +139,7 @@ input:focus {
   box-shadow: 2px 2px 4px 1px #00000042;
 }
 
-input[type="password"]:invalid,
-input[type="tel"]:invalid {
+input[type="password"]:invalid {
   border: 1px solid red;
 }
 
@@ -181,4 +183,15 @@ input:required + span::after {
   padding: 0.3rem;
   color: white;
   font-weight: bold;
+}
+
+.signInLink {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+.signInLink > a {
+  color: rgb(219, 169, 77);
+  font-weight: bold;
+  text-decoration: none;
 }
