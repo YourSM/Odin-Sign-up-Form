@@ -113,6 +113,7 @@ form > div {
 .verticalContainer {
   display: flex;
   flex-direction: column;
+  
 }
 
 input {
@@ -149,7 +150,6 @@ h2,
 }
 
 form > div {
-  gap: 3.5rem;
   padding-left: 2rem;
 }
 
