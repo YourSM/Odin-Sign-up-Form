@@ -131,7 +131,7 @@ label {
 
 h2 {
   margin: 0;
-  padding: 1rem 0px 1.5rem 0rem;
+  margin: 2.2rem 0px 2.2rem 0rem;
 }
 
 input:focus {
@@ -198,4 +198,8 @@ input:required + span::after {
 
 form > .verticalContainer {
   box-shadow: 2px 2px 4px 1px #00000042;
+}
+
+.verticalContainer > .container {
+  gap: 50px;
 }
