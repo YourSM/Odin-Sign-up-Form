@@ -137,7 +137,6 @@ h2 {
 input:focus {
   outline: none;
   border: 1px solid blue;
-  box-shadow: 2px 2px 4px 1px #00000042;
 }
 
 input[type="password"]:invalid {
@@ -162,7 +161,6 @@ button {
   font-size: 1rem;
   background-color: rgb(158, 136, 95);
   margin: 2rem 0rem 2rem 2rem;
-  box-shadow: 2px 2px 4px 1px #00000042;
 }
 
 button:active {
@@ -196,6 +194,8 @@ input:required + span::after {
   text-decoration: none;
 }
 
+input:focus,
+button,
 form > .verticalContainer {
   box-shadow: 2px 2px 4px 1px #00000042;
 }
