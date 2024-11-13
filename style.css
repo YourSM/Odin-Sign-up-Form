@@ -33,7 +33,7 @@ body {
 .smallContainer {
   display: flex;
   flex: 1;
-  background-image: url(lionPicture.jpg);
+  background-image: url(./images/lionPicture.jpg);
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ cite {
 .logoContainer > span::before {
   display: inline-block;
   content: "";
-  background-image: url(odin-lined.png);
+  background-image: url(./images/odin-lined.png);
   height: 120px;
   width: 90px;
   background-size: 100%;
