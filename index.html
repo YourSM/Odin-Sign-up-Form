@@ -13,6 +13,7 @@
         <span></span>
         <h1>ODIN</h1>
       </div>
+      
       <cite>
         Photo by
       <a class="sidebarLink" href="https://unsplash.com/@brondia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
@@ -24,9 +25,8 @@
         Unsplash
       </a>
       </cite>
-    
-
     </div>
+
     <div class="bigContainer">
       <div>
         <p>This is not a real online service! You know you need something
@@ -35,57 +35,63 @@
         </p>
         <p>You<em> know </em>you want to</p>
       </div>
+
       <form>
         <div class="verticalContainer">
           <h2>Let's do this!</h2>
         
-        <div class="container">
-          <div class="verticalContainer">
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" name="name" id="first-name" required>
-            <span></span>
-            <label for="email">EMAIL</label>
-            <input type="email" name="user-email" id="email" required>
-            <span></span>
-            <label for="pwd">PASSWORD</label>
-            <input type="password"
-                   name="user-pwd"
-                   id="pwd"
-                   pattern="(?=.*[A-Z].*)(?=.*[a-z].*)(.*[1-9].*)"
-                   minlength="8"
-                   maxlength="16"
-                   title="Password must contain at least one capital letter, number, and lowercase letter"
-                   required>
-            <span></span>
-            
-          </div>
-          <div class="verticalContainer">
-            <label for="last-name">LAST NAME</label>
-            <input type="text" name="name" id="last-name" required>
-            <span></span>
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel"
-                   name="phone-number"
-                   id="phone-number"
-                   pattern="([1-9]{3})([\-]?)([1-9]{3})([\-]?)([1-9]{4})"
-                   title="Please use the format 111-111-111 or 1111111111"
-                   required>
-            <span></span>
-            <label for="confirm-pwd">CONFIRM PASSWORD</label>
-            <input type="password"
-                   name="user-pwd"
-                   id="confirm-pwd"
-                   pattern="(?=.*[A-Z].*)(?=.*[a-z].*)(.*[1-9].*)"
-                   minlength="8"
-                   maxlength="16"
-                   title="Password must contain at least one capital letter, number, and lowercase letter"
-                   required>
-            <span></span>
-          </div>
-          </div>
+          <div class="container">
+            <div class="verticalContainer">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="name" id="first-name" required>
+              <span></span>
+
+              <label for="email">EMAIL</label>
+              <input type="email" name="user-email" id="email" required>
+              <span></span>
+
+              <label for="pwd">PASSWORD</label>
+              <input type="password"
+                    name="user-pwd"
+                    id="pwd"
+                    pattern="(?=.*[A-Z].*)(?=.*[a-z].*)(.*[1-9].*)"
+                    minlength="8"
+                    maxlength="16"
+                    title="Password must contain at least one capital letter, number, and lowercase letter"
+                    required>
+              <span></span>
+            </div>
+
+            <div class="verticalContainer">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="name" id="last-name" required>
+              <span></span>
+
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel"
+                    name="phone-number"
+                    id="phone-number"
+                    pattern="([1-9]{3})([\-]?)([1-9]{3})([\-]?)([1-9]{4})"
+                    title="Please use the format 111-111-111 or 1111111111"
+                    required>
+              <span></span>
+
+              <label for="confirm-pwd">CONFIRM PASSWORD</label>
+              <input type="password"
+                    name="user-pwd"
+                    id="confirm-pwd"
+                    pattern="(?=.*[A-Z].*)(?=.*[a-z].*)(.*[1-9].*)"
+                    minlength="8"
+                    maxlength="16"
+                    title="Password must contain at least one capital letter, number, and lowercase letter"
+                    required>
+              <span></span>
+            </div>
+            </div>
           </div>
         <button>Create Account</button>
       </form>
+      
       <div>
         <span class="signInLink">
           Already have an account?
